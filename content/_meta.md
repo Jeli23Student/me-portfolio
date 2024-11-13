@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
+Logo: assets/img/golf_logo.png
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
-      icon: github
+  - title: Länk till mitt github repo.
+    url: https://github.com/Jeli23Student/me-portfolio
+    icon: github
 ---
