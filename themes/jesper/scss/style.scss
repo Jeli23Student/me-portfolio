@@ -1,0 +1,27 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'typography';
+
+@import 'container';
+@import 'title';
+@import 'header';
+@import 'footer';
+
+@import 'blockquotes';
+@import 'code';
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
