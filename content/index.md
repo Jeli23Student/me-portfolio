@@ -10,4 +10,4 @@ Till vardags så jobbar jag som Jr Business Controller men brinner för kodning 
 Ser att detta är framtiden och är extremt intresserad av framtiden inom SaaS.
 Har lärt mig en del själv inom kodning och vill med denna utbildningen få det på papper samt få lite feedback om "clean code".
 
-![Jesper](assets/img/golf_logo.png)
+![nature_logo](themes/jesper/images/nature_logo.png)

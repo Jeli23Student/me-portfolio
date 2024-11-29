@@ -9,6 +9,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'variables';
 
 @import 'about';
+@import 'technologies';
+@import 'technology';
 @import 'typography';
 
 @import 'container';
@@ -20,7 +22,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'code';
 
 body {
-    background-color: $background-color;
+    background: $background-color;
 }
 
 * {
