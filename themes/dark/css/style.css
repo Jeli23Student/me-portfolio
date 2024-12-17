@@ -6450,51 +6450,51 @@ template {
   font-size: 3em;
   font-weight: bold;
   text-align: center;
-  color: Black;
+  color: #475e1a;
   text-shadow: 2px 2px 2px white;
   margin-bottom: 1rem;
 }
 
 .box1 {
   grid-column: span 1;
-  border: 1.5px solid red;
-  background-color: #D4BF88;
+  border: 1.5px solid #f00;
+  background-color: #d0dfb3;
 }
 
 .box2 {
   grid-column: span 1;
-  border: 1.5px solid green;
-  background-color: #D4BF88;
+  border: 1.5px solid #0f0;
+  background-color: #d0dfb3;
 }
 
 .box3 {
   grid-column: span 1;
-  border: 1.5px solid yellow;
-  background-color: #D4BF88;
+  border: 1.5px solid #ff0;
+  background-color: #d0dfb3;
 }
 
 .box4 {
   grid-column: span 2;
-  border: 1.5px solid purple;
-  background-color: #D4BF88;
+  border: 1.5px solid #a020f0;
+  background-color: #d0dfb3;
 }
 
 .box5 {
   grid-column: span 1;
-  border: 1.5px solid blue;
-  background-color: #D4BF88;
+  border: 1.5px solid #00f;
+  background-color: #d0dfb3;
 }
 
 .box6 {
   grid-column: span 3;
-  border: 1.5px solid orange;
-  background-color: #D4BF88;
+  border: 1.5px solid #ffa500;
+  background-color: #d0dfb3;
 }
 
 .box7 {
   grid-column: span 3;
-  border: 1.5px solid brown;
-  background-color: #D4BF88;
+  border: 1.5px solid #964b00;
+  background-color: #d0dfb3;
 }
 
 .landingpage > div {
@@ -6511,7 +6511,7 @@ template {
 
 .landingpage > div a {
   text-decoration: none;
-  color: Black;
+  color: #475e1a;
   font-weight: bold;
 }
 
@@ -6522,7 +6522,9 @@ template {
   .landingpage h1 {
     grid-column: span 2;
   }
-  .box1, .box2, .box3 {
+  .box1,
+  .box2,
+  .box3 {
     grid-column: span 1;
   }
   .box4 {
@@ -6531,7 +6533,8 @@ template {
   .box5 {
     grid-column: span 1;
   }
-  .box6, .box7 {
+  .box6,
+  .box7 {
     grid-column: span 2;
   }
 }
@@ -6542,7 +6545,13 @@ template {
   .landingpage h1 {
     grid-column: span 1;
   }
-  .box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7 {
     grid-column: span 1;
   }
 }
@@ -6556,7 +6565,7 @@ template {
 .menu {
   flex: 1 1 20%; /* Sidebar takes 20% of the width */
   max-width: 200px;
-  background-color: #D4BF88;
+  background-color: #d0dfb3;
   padding: 16px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -6577,7 +6586,7 @@ template {
 
 .menu ul li a {
   text-decoration: none;
-  color: Black;
+  color: #475e1a;
   transition: color 0.2s ease;
 }
 
@@ -6589,7 +6598,7 @@ template {
 .article-content {
   flex: 3 1 70%; /* Content takes up the remaining space */
   padding: 16px;
-  background-color: white;
+  background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -6610,13 +6619,22 @@ body {
   font-family: "Geist Mono", monospace;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
 }
@@ -6625,7 +6643,8 @@ img {
   max-width: 100%;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -6642,16 +6661,19 @@ body {
   margin: 0 auto;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
 }
 
-.title, .logo {
+.title,
+.logo {
   padding: 3em 3em 3em 0;
 }
 
 @media (max-width: 767px) {
-  .title, .logo {
+  .title,
+  .logo {
     padding: 1em 1em 1em 0;
   }
   .title {
@@ -6662,7 +6684,7 @@ body {
   }
 }
 .title * {
-  color: black;
+  color: #5a7520;
 }
 
 .title p {
@@ -6675,8 +6697,8 @@ body {
   padding-left: 2rem;
   justify-content: space-between;
   align-items: center;
-  background-color: #D4BF88;
-  color: black;
+  background-color: #d0dfb3;
+  color: #475e1a;
 }
 
 .site-header {
@@ -6688,7 +6710,7 @@ body {
 
 .nav a {
   font-size: 2.5rem;
-  color: black;
+  color: #475e1a;
 }
 
 .footer {
@@ -6697,13 +6719,13 @@ body {
   padding: 2rem;
   justify-content: space-between;
   align-items: center;
-  background-color: #D4BF88;
-  color: white;
+  background-color: #d0dfb3;
+  color: #fff;
 }
 .footer .social a {
   text-decoration: none;
   font-size: 3rem;
-  color: white;
+  color: #fff;
 }
 
 blockquote {
@@ -6718,18 +6740,18 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #D4BF88;
+  background: #d0dfb3;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
-  color: #3B2E1E;
+  color: #5a7520;
 }
 
 pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #D4BF88;
+  background: #d0dfb3;
 }
 
 pre code {
@@ -6746,7 +6768,7 @@ pre code {
   text-align: center;
   height: 120px;
   width: 120px;
-  border: 1.5px solid black;
+  border: 1.5px solid #000;
 }
 
 .image-container {
@@ -6761,9 +6783,9 @@ pre code {
 }
 
 body {
-  background: #E6DEB9;
+  background: #e8f1d5;
 }
 
 * {
-  color: #3B2E1E;
+  color: #5a7520;
 }
