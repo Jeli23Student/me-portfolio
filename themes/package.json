@@ -7,8 +7,8 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\" --fix",
-    "style": "sass dark/scss/style.scss dark/css/style.css --no-source-map",
-    "style-min": "sass dark/scss/style.scss dark/css/style.min.css --no-source-map --style compressed"
+    "style": "sass jesper/scss/style.scss jesper/css/style.css --no-source-map",
+    "style-min": "sass jesper/scss/style.scss jesper/css/style.min.css --no-source-map --style compressed"
   
   },
   "keywords": [],
