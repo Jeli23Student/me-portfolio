@@ -6451,7 +6451,7 @@ template {
   font-weight: bold;
   text-align: center;
   color: #475e1a;
-  text-shadow: 2px 2px 2px white;
+  text-shadow: 2px 2px 2px #fff;
   margin-bottom: 1rem;
 }
 
