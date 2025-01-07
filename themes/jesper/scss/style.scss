@@ -6,7 +6,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@use 'variables' as *;
 
 @import 'about';
 @import 'technologies';

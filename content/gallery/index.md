@@ -7,13 +7,29 @@ Description: Gallery
 
 <div class="image-gallery">
     <a href="content/gallery/images/m1.jpg">
-        <img src="content/gallery/images/m1.jpg?q=100" alt="Mercedes Driver 1">
+        <img 
+            src="content/gallery/images/m1.jpg?w=300&q=80" 
+            alt="Mercedes Driver 1"
+            srcset="
+                content/gallery/images/m1.jpg?w=300&q=80 300w,
+                content/gallery/images/m1.jpg?w=900&q=80 900w
+            " 
+            sizes="(max-width: 600px) 300px, 900px">
     </a>
     <a href="content/gallery/images/m2.jpg">
-        <img src="content/gallery/images/m2.jpg?q=100" alt="Mercedes Logo">
+        <img 
+            src="content/gallery/images/m2.jpg?w=300&q=80" 
+            alt="Mercedes Logo"
+            srcset="
+                content/gallery/images/m2.jpg?w=300&q=80 300w,
+                content/gallery/images/m2.jpg?w=900&q=80 900w
+            " 
+            sizes="(max-width: 600px) 300px, 900px">
     </a>
     <a href="content/gallery/images/m3.jpg">
-        <img src="content/gallery/images/m3.jpg?q=100" alt="Mercedes Driver 2">
+        <img 
+            src="content/gallery/images/m3.jpg?w=300&q=80" 
+            alt="Mercedes Driver 2">
     </a>
     <a href="content/gallery/images/mc1.jpg">
         <img src="content/gallery/images/mc1.jpg?q=100" alt="McLaren Driver 1">
